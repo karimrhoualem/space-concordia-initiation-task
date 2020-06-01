@@ -17,7 +17,7 @@ char board[10] = {'1','2','3','4','5','6','7','8','9'};
 // Function that will print the original and updated board to the screen
 void printBoard() {
 
-	cout << "Player 1 (X) ---------------- Player 2 (O)" << endl << endl;
+	cout << "Player 1 (X) --------------- Player 2 (O)" << endl << endl;
 
 	cout << "\t\t" << board[0] << " | " << board[1] << " | " << board[2] << endl;
 	cout << "\t\t" << "---------" << endl;
